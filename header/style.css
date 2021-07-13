@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+
+  min-width: 100%;
+  min-height: 50px;
+}
+
+.header-h1 {
+  width: 0px;
+  height: 0px;
+
+  overflow: hidden;
+}
+
+.header-svg {
+  width: 5%;
+}
+
+.header-h2 {
+  width: 50%;
+
+  margin-top: 12px;
+  font-size: 24px;
+}
+
+ .header-nav {
+   display: flex;
+   width: 40%;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   
+  width: 100%;
+}
